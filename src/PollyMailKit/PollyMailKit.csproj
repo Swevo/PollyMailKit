@@ -6,12 +6,12 @@
     <LangVersion>latest</LangVersion>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageId>PollyMailKit</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Justin Bannister</Authors>
     <Copyright>Copyright (c) 2025 Justin Bannister</Copyright>
     <Description>Polly v8 resilience pipelines for MailKit — retry, timeout, and circuit-breaker for SmtpClient.SendAsync and any MailKit SMTP operation. Includes a built-in MailKitTransientErrors predicate covering socket failures, I/O errors, lost connections, and operation timeouts. Essential for any app that sends transactional email via SMTP.</Description>
     <PackageTags>polly;mailkit;smtp;email;imap;pop3;mimekit;mimekit;transactional-email;email-delivery;resilience;retry;timeout;circuit-breaker;fault-tolerance;dotnet;aspnetcore;polly-v8;dependency-injection;csharp;nuget;notifications</PackageTags>
-    <PackageReleaseNotes>1.0.0: Initial release. ResilientSmtpSender creates a fresh connection per attempt (retry-safe). ResilientSmtpClient wraps an existing SmtpClient. MailKitTransientErrors.IsTransient covers SocketException, IOException, ServiceNotConnectedException, OperationCanceledException. Supports net6.0, net8.0, net9.0.</PackageReleaseNotes>
+    <PackageReleaseNotes>1.0.1: Fix package icon (was showing an incorrect/placeholder image). 1.0.0: Initial release. ResilientSmtpSender creates a fresh connection per attempt (retry-safe). ResilientSmtpClient wraps an existing SmtpClient. MailKitTransientErrors.IsTransient covers SocketException, IOException, ServiceNotConnectedException, OperationCanceledException. Supports net6.0, net8.0, net9.0.</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/Swevo/PollyMailKit</RepositoryUrl>
@@ -35,7 +35,7 @@
     <PackageReference Include="Polly.Core" Version="8.*" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
-    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="....icon.png" Pack="true" PackagePath="" />
+    <None Include="....README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 </Project>
