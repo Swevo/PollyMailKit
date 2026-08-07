@@ -1,9 +1,10 @@
-﻿# PollyMailKit
+# PollyMailKit
 
 [![NuGet](https://img.shields.io/nuget/v/PollyMailKit.svg)](https://www.nuget.org/packages/PollyMailKit/)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/PollyMailKit.svg)](https://www.nuget.org/packages/PollyMailKit/)
 [![CI](https://github.com/Swevo/PollyMailKit/actions/workflows/build.yml/badge.svg)](https://github.com/Swevo/PollyMailKit/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![.NET 10 Ready](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet)](#)
 
 **Polly v8 resilience pipelines for MailKit SMTP** — retry, timeout, and circuit-breaker for sending email via SmtpClient.
 
